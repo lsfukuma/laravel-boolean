@@ -19,20 +19,24 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})-> name('homepage');
 
 Route::get('/corso', function () {
     return view('corso');
-});
+})-> name('corso');
 
 Route::get('/carriere', function () {
     return view('dopo_il_corso');
-});
+})-> name('carriere');
 
 Route::get('/lezione_gratuita', function () {
     return view('lezione_gratuita');
-});
+})-> name('lezione_gratuita');
 
 Route::get('/aziende', function () {
     return view('assumi');
-});
+})-> name('assumi');
+
+Route::get('/privacy_policy', function () {
+    return view('privacy_policy');
+})-> name('privacy');

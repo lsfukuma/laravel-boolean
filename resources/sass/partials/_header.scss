@@ -1,0 +1,51 @@
+header {
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    color: #1b3c59;
+    position: fixed;
+    text-transform: uppercase;
+    background-color: $nav-bg-color;
+    z-index: 9;
+}
+
+.navbar-left {
+
+
+    img {
+        max-width: 100%;
+        max-height: 100px;
+        padding: 20px 0;
+    }
+}
+
+.navbar-right {
+
+    ul {
+        list-style: none;
+        padding: 25px;
+
+        li {
+            display: inline-block;
+            a {
+                text-decoration: none;
+                padding: 10px;
+                color: $nav-font-color;
+                font-size: $nav-font-size;
+                &:hover {
+                    border-bottom: 2px solid $btn-bg-color;
+                }
+            }
+        }
+    }
+    button{
+        background-color: $btn-bg-color;
+        max-height: 40px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        color: $btn-color;
+        border: 1px solid $btn-bg-color;
+        font-size: $nav-font-size;
+    }
+}
