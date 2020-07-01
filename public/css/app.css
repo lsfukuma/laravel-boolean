@@ -16079,15 +16079,33 @@ readers do not read off random characters that represent icons */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #1b3c59;
 }
 
 body {
   font-family: "Rubik", sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 h1 {
   text-transform: uppercase;
+  font-size: 50px;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
 }
 
 header {
@@ -16108,7 +16126,6 @@ header {
 }
 
 .navbar-right ul {
-  list-style: none;
   padding: 25px;
 }
 .navbar-right ul li {
@@ -16134,7 +16151,50 @@ header {
   font-size: 0.8rem;
 }
 
+footer {
+  height: 500px;
+  width: 100%;
+  background-color: #1b3c59;
+  color: #fff;
+}
+
+.footer-top {
+  border-bottom: 2px solid #fff;
+}
+.footer-top img {
+  width: 200px;
+}
+.footer-top p {
+  margin: 0;
+  padding: 0;
+}
+.footer-top .footer-top-right {
+  text-align: right;
+}
+.footer-top .footer-top-right li {
+  padding: 10px 0;
+}
+.footer-top .footer-top-right a {
+  color: #fff;
+}
+.footer-top .footer-top-right a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+.footer-bottom .social-icons i {
+  font-size: 30px;
+  color: #fff;
+  padding: 30px 20px;
+}
+.footer-bottom .social-icons i:hover {
+  color: #61ce4e;
+}
+
 .row.diventa-webdev {
+  color: #1b3c59;
   padding: 120px 0 50px 0;
 }
 .row.diventa-webdev h1 {
@@ -16147,4 +16207,10 @@ header {
 .risultati {
   background-color: #1b3c59;
   color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+.risultati h3 {
+  font-weight: 300;
+  padding: 50px;
 }

@@ -1,0 +1,45 @@
+footer {
+    height: 500px;
+    width: 100%;
+    background-color: $bg-color-blue;
+    color: $font-color-white;
+}
+
+.footer-top {
+    border-bottom: 2px solid $font-color-white;
+
+    img {
+        width: 200px;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-top-right {
+        text-align: right;
+        li {
+            padding: 10px 0;
+        }
+        a {
+            color: $font-color-white;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.footer-bottom {
+    text-align: center;
+    .social-icons i{
+        font-size: 30px;
+        color: $font-color-white;
+        padding: 30px 20px;
+        &:hover {
+            color: $color-hover;
+        }
+    }
+}

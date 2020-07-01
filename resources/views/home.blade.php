@@ -26,8 +26,8 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container risultati">
+    <section class="risultati">
+        <div class="container">
             <div class="row">
                 <div class="col-4">
                     <h2>98%</h2>
