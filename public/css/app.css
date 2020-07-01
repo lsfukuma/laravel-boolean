@@ -16101,6 +16101,10 @@ h2 {
 }
 
 h3 {
+  font-size: 30px;
+}
+
+h4 {
   font-size: 20px;
 }
 
@@ -16152,7 +16156,7 @@ header {
 }
 
 footer {
-  height: 500px;
+  padding-top: 150px;
   width: 100%;
   background-color: #1b3c59;
   color: #fff;
@@ -16172,7 +16176,7 @@ footer {
   text-align: right;
 }
 .footer-top .footer-top-right li {
-  padding: 10px 0;
+  padding: 8px 0;
 }
 .footer-top .footer-top-right a {
   color: #fff;
@@ -16210,7 +16214,27 @@ footer {
   text-align: center;
   padding: 30px 0;
 }
-.risultati h3 {
-  font-weight: 300;
-  padding: 50px;
+.risultati h4 {
+  font-weight: lighter;
+  padding: 20px 30px;
+}
+
+.privacy-policy {
+  padding-top: 150px;
+  color: #1b3c59;
+  line-height: 1.5;
+}
+.privacy-policy h3 {
+  font-weight: bold;
+}
+.privacy-policy h4 {
+  font-weight: bold;
+  padding: 20px 0;
+}
+.privacy-policy ul {
+  list-style: disc;
+  padding: 0 20px;
+}
+.privacy-policy ul li {
+  font-size: 15px;
 }
